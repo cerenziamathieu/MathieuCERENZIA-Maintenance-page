@@ -1,0 +1,54 @@
+/* Bouton dowload */
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #a12727;
+    border-radius: 8px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    -webkit-box-shadow: #ff5959 0px 0px 40px 0px;
+    -moz-box-shadow: #ff5959 0px 0px 40px 0px;
+    box-shadow: #ff5959 0px 0px 40px 0px;
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 17px arial;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:hover {
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+    background: linear-gradient(to bottom, #ff5959, #b62f2f);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+    background: -moz-linear-gradient(top, #982727, #982727);
+    background: linear-gradient(to bottom, #982727, #982727);
+    text-transform: uppercase
+}
+.button:focus {
+    text-transform: uppercase
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAADeUlEQVRIiX2Wv28cRRTHP29v7ofNBTs+O7ZsIuKTKzf8LKmIqGhcmFRnFzScFAlRRXJJZdGDYiEa45MLS0T+B1zTEEFlCIIL4YcvdhwJHMvO3u7to5jZvbnNwhR3czc778fn+2beChBQMB7dbZGILAGrwE1gGbjmlk+AQ+AA2BOC7o32dpEZxDlIfEcPt9aawKbACmBe2KHuG1AlBvaBjcX2zi+enQQIfAf8+NWHQS2OWsAXCHVxVhRFMovWuKrz4eag58Dt6rh25tc7acBJFrUzfkdgG6ijdqOq4s8Vtf85x+kcqAPb4YXc6X3dyoJO0w9qcdQS2ERcrI1XYXK+kGspumTw+w9DThk7UNXN5xdyBHQyDRzz70Wk7rgi730MpTKqijgWabSTk7Pw67f8fX8/k8SXB9Vzhdea7Z1u6dHdlqjIFsLrmXgCLL1TGD1ArVZnYvFtBAh7P2UusnyEisDCJ++/8Y1JRJZstcioFcn9Jr8sTLxlt/1zfz8HChRdQZKmAVYVjF99qvZDRHhyckoYhgCUy2Vm52YIL58xqDcISoaJN1eAoRNVG5uIGFRvGewhQkkrA6/GlemZxkjkqvC8f8GDB9/R6x2TqFqi6LBsyfS4aYBlKcLh/vMzyI9qtUoURQziODsno5Z02QDX1OEoQpRmICK5igIRpd+POPrr8UiGXrzTZlSaUUQAp0+e/m8G0zMNrl9fQH+2m0XSUrXPGOBEROeGdv17AK5OTfqndWSkaEumBCgqlryAnSunBjhUZW4EkVNKBM7OntHvR4UOKpUyU1NXLTqnQnprOZEPDXAA8u5/IXppfJxaLSl0UAoCfP0KEB0YYA/0U9xZyCMKw5AoikmXsigEysZQqVbcUg4RxMCeEYKukuyDrBYhuvLylYx3Gi3w4jyHCPSeot3AdaINVT33EemgmHt6bVuH7gofRLjKdmWuZ8BGs91JsobzcGttHdgWsYiOy3OYxiuFTvIjfvons/FjF72iytpie2cXvHY4Fl92Ls3YvKpugtAIe/T/OErblVOvoFwFKqUASkFqfKMiY7tudZgBwPHnHwQXpmZbJtRT7r4GaZn41WJ96xlwuyJjuwsffZl4/gub/g3gM5AVEfVOe3ohWhROkxi4h236vxUkOMzADafJegDaFLilw9eWaffMKd5ri6LdZnvY6H07/wIYbK2DTc2kvgAAAABJRU5ErkJggg==") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
